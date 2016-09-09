@@ -31,7 +31,6 @@ class TwoSum {
             int num = nums[i];
             if (num > 0) {
                 if (num <= target) {
-
                     common(target, num, i, nums, store);
                 }
             } else {
