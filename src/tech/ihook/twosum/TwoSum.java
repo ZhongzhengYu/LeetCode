@@ -13,7 +13,7 @@ import java.util.Arrays;
  * <p>
  * Given nums = [2, 7, 11, 15], target = 9,
  * Because nums[0] + nums[1] = 2 + 7 = 9,
- * return [0, 1]. *
+ * return [0, 1].
  */
 class TwoSum {
 
@@ -31,7 +31,6 @@ class TwoSum {
             int num = nums[i];
             if (num > 0) {
                 if (num <= target) {
-
                     common(target, num, i, nums, store);
                 }
             } else {
